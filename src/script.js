@@ -50,9 +50,8 @@ gsap.from(".conjuntoSection > h1", {
       }
 })
 
-gsap.from(".tecidoSection > div > img", {
-    width: 100,
-    height: 100,
+gsap.from(".imgTecido", {
+    width: 0,
     opacity: 0,
     scrollTrigger: {
         scrub: .5,
@@ -74,7 +73,6 @@ gsap.from(".quality", {
 
 gsap.from(".tecidoSection", {
     "--after-width": 0,
-    stagger: 1,
     scrollTrigger: {
         trigger: ".tecidoSection",
         scrub: 1,
