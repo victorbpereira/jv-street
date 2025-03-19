@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-(--color01)">
+    
+    <header class="flex items-center justify-center">
+        <div class="flex items-center">
+            <p class="flex gap-2 items-center text-2xl text-(--color03)"><span class="font-aclonica">Não</span><span class="font-ranga">vista</span><span class="font-rozha">marcas, </span><span class="font-sarina">vista</span></p>
+            <img class="logo" src="svg/logoCromada.svg" alt="">
+        </div>
+    </header>
+
+    <section class="introSection flex flex-col items-center mb-50">
+        <h1 class="font-pop font-semibold text-[240px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent -z-1">streetwear</h1>
+        <img class="imgMoletons m-auto mt-[-180px]" src="img/moletonsMain.png" alt="">
+    </section>
+
+    <section class="camisaSection flex justify-center items-center pt-20 mb-50">
+        <div class="z-2 flex flex-col">
+            <h1 class="over font-pop font-semibold text-[240px] bg-gradient-to-r from-indigo-500 to-purple-500 to-20% bg-clip-text text-transparent">over</h1>
+            <img class="mt-[-150px] w-xl drop-shadow-2xl" src="img/camisaWhite.png" alt="">
+        </div>
+        <div class="flex flex-col items-center ml-[-150px] pt-5">
+            <img class="mb-[-150px] w-xl" src="img/camisaBlack.png" alt="">
+            <h1 class="sized font-pop font-semibold text-[240px] bg-gradient-to-r  from-purple-500 to-pink-500 to-50% bg-clip-text text-transparent">sized</h1>
+        </div>
+    </section>
+
+    <section class="conjuntoSection flex flex-col items-center mb-50">
+        <h1 class="font-pop font-semibold text-[160px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">conjunto <span class="font-light">street</span></h1>
+        <img class="w-md mt-[-100px] drop-shadow-2xl" src="img/conjuntoCamisa.png" alt="">
+        <img class="w-md mt-[-30px]" src="img/conjuntoCalca.png" alt="">
+    </section>
+
+    <section class="tecidoSection flex gap-10 justify-center mb-50">
+        <div class="flex flex-col gap-15 items-center">
+            <img class="w-md shadow-2xl shadow-zinc-800 rounded-full z-2" src="img/tecido.png" alt="">
+            <div class="flex flex-col gap-8">
+                <div class="quality flex items-center gap-2">
+                    <img src="svg/CheckCircle.svg" alt="">
+                    <p class="text-(--color04) font-pop font-light text-lg">Tecido de <span class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Alta</span> Qualidade</p>
+                </div>
+                <div class="quality flex items-center gap-2">
+                    <img src="svg/Photograph.svg" alt="">
+                    <p class="text-(--color04) font-pop font-light text-lg">Costuras <span class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Reforçadas</span></p>
+                </div>
+                <div class="quality flex items-center gap-2">
+                    <img src="svg/Sparkles.svg" alt="">
+                    <p class="text-(--color04) font-pop font-light text-lg">Acabamentos <span class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Impecáveis</span></p>
+                </div>
+                <div class="quality flex items-center gap-2">
+                    <img src="svg/slack.svg" alt="">
+                    <p class="text-(--color04) font-pop font-light text-lg">Corte <span class="font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Moderno</span></p>
+                </div>
+            </div>
+        </div>
+        <img class="w-md self-end" src="img/conjuntoCamisa.png" alt="">
+    </section>
+
+    <section class="capSection flex flex-col items-center justify-center mb-50">
+        <p class="cap font-pop font-semibold text-[200px] bg-gradient-to-r from-indigo-500 to-purple-500 to-20% bg-clip-text text-transparent z-2">cap</p>
+        <img class="w-lg mt-[-100px] mb-[-140px] drop-shadow-2xl" src="img/bone.png" alt="">
+        <p class="street font-pop font-semibold text-[200px] bg-gradient-to-r  from-purple-500 to-pink-500 to-50% bg-clip-text text-transparent -z-1">street</p>
+        <img id="bm1" src="img/boneMovimento1.png" alt="">
+        <img id="bm2" src="img/boneMovimento2.png" alt="">
+        <img id="bm3" src="img/boneMovimento3.png" alt="">
+        <img id="bm4" src="img/boneMovimento4.png" alt="">
+    </section>
+
+    <section class="edicaoSection flex flex-col items-center justify-center overflow-hidden">
+        <img class="w-30 mb-15" src="svg/logoBranca.svg" alt="">
+        <p class="font-pop mb-5 font-semibold text-7xl bg-gradient-to-b from-(--color04) from-40% via-zinc-500  via-55% to-(--color04) to-65% bg-clip-text text-transparent">edição limitada</p>
+        <p class="font-pop text-(--color04) font-light text-lg tracking-wide mb-20">Uma coleção que não se repete, uma exclusividade que merece ser sua.</p>
+        <div class="flex items-end justify-center opacity-30">
+            <img class="w-lg rotate-30" src="img/camisaBlack.png" alt="">
+            <img class="w-55" src="img/conjuntoCalca.png" alt="">
+            <img class="w-xs mr-[-100px] ml-[-70px] z-2" src="img/moletom2.png" alt="">
+            <img class="w-xs mr-[-120px]" src="img/moletom1.png" alt="">
+            <img class="w-65 -z-1 mr-[-100px]" src="img/conjuntoCamisa.png" alt="">
+            <img class="w-xs rotate-20 mr-[-100px]" src="img/bone.png" alt="">
+            <img class="w-lg -rotate-20" src="img/camisaWhite.png" alt="">
+        </div>
+    </section>
+
+</body>
+</html>
