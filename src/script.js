@@ -21,32 +21,34 @@ gsap.from(".over", {
     y: 200,
     duration: 1,
     scrollTrigger: {
+        trigger: ".camisaSection",
         scrub: .5,
-        start: 'top',
-        pin: ".camisaSection",
+        start: 'top center',
+        end: 'bottom bottom',
       }
 })
 
 gsap.from(".sized", {
     opacity: 0,
-    x: -350,
+    x: -250,
     duration: 1,
     scrollTrigger: {
         scrub: .5,
         trigger: ".camisaSection",
-        start: 'center center',
+        start: 'top center',
+        end: 'bottom bottom',
       }
 })
 
 gsap.from(".conjuntoSection > h1", {
     opacity: 0,
-    y: 100,
+    y: 80,
     duration: 1,
     scrollTrigger: {
-        pin: ".conjuntoSection",
+        trigger: ".conjuntoSection",
         scrub: .5,
-        start: 'top',
-        end: 'center',
+        start: 'top center',
+        end: 'center center',
       }
 })
 
@@ -54,9 +56,10 @@ gsap.from(".imgTecido", {
     width: 0,
     opacity: 0,
     scrollTrigger: {
-        scrub: .5,
-        pin: ".tecidoSection",
-        start: 'center center'
+        trigger: ".tecidoSection",
+        scrub: 1,
+        start: 'top center',
+        end: 'bottom center',
     }
 })
 
@@ -67,7 +70,8 @@ gsap.from(".quality", {
     scrollTrigger: {
         trigger: ".tecidoSection",
         scrub: 1,
-        start: 'center center'
+        start: 'top center',
+        end: 'bottom center',
     }
 })
 
@@ -76,7 +80,8 @@ gsap.from(".tecidoSection", {
     scrollTrigger: {
         trigger: ".tecidoSection",
         scrub: 1,
-        start: 'center center'
+        start: 'top center',
+        end: 'bottom center',
     }
 })
 
@@ -84,8 +89,10 @@ gsap.from(".cap", {
     opacity: 0,
     duration: 2,
     scrollTrigger: {
-        pin: ".capSection",
-        scrub: .5
+        scrub: .5,
+        trigger: ".capSection",
+        start: 'top center',
+        end: 'bottom center',
     }
 })
 
@@ -96,18 +103,7 @@ gsap.from(".street", {
     scrollTrigger: {
         trigger: ".capSection",
         scrub: .5,
-        start: 'top'
-    }
-})
-
-gsap.from(".edicaoSection > div > img", {
-    top: -500,
-    opacity: 0,
-    stagger: .3,
-    scrollTrigger: {
-        trigger: ".edicaoSection",
-        scrub: 2,
-        start: 'center bottom',
-        end: 'bottom bottom'
+        start: 'top center',
+        end: 'bottom top',
     }
 })

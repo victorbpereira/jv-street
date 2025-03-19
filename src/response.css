@@ -1,0 +1,296 @@
+/* 1280px */
+@media (width <= 80rem) {
+    .introSection > h1 {
+        font-size: 200px;
+    }
+
+    .introSection > img {
+        width: 1000px;
+        margin-top: -150px;
+    }
+
+}
+
+/* 1024px */
+@media (width <= 64rem) {
+    .introSection::after {
+        top: 60%;
+    }
+
+    .introSection > h1 {
+        font-size: 160px;
+    }
+
+    .introSection > img {
+        width: 900px;
+        margin-top: -120px;
+    }
+
+    header > div > p {
+        font-size: 20px;
+    }
+
+    header > div > img {
+        width: 120px;
+    }
+
+    header > div {
+        gap: 10px;
+    }
+
+    .cwS {
+        margin-top: -100px;
+    }
+
+    .camisaSection > div > img {
+        width: 500px;
+    }
+
+    .camisaSection > div > h1 {
+        font-size: 200px;
+    }
+
+    .conjuntoSection > h1 {
+        font-size: 120px;
+    }
+
+    .conjuntoSection > img {
+        width: 300px;
+    }
+
+    .conjunto1 {
+        margin-top: -80px;
+    }
+
+    .conjuntoSection::after {
+        width: 110%;
+        height: 110%;
+        top: 40%;
+    }
+
+    .imgTecido {
+        max-width: 300px;
+    }
+
+    .tecidoSection::after {
+        top: 40%;
+    }
+
+    .camisaTecido {
+        width: 400px;
+    }
+
+    .camisaWhite {
+        display: none;
+    }
+
+    .camisaBlack {
+        display: none;
+    }
+}
+
+/* 768px */
+@media (width <= 48rem) {
+    .introSection::after {
+        top: 70%;
+    }
+
+    .introSection > h1 {
+        font-size: 120px;
+    }
+
+    .introSection > img {
+        width: 700px;
+        margin-top: -90px;
+    }
+
+    header > div > p {
+        font-size: 18px;
+    }
+
+    header > div > img {
+        width: 100px;
+    }
+
+    header > div {
+        gap: 8px;
+    }
+
+    .cbContainer {
+        margin-left: -100px;
+    }
+
+    .cwS {
+        margin-top: -80px;
+    }
+
+    .camisaSection > div > img {
+        width: 400px;
+    }
+
+    .camisaSection > div > h1 {
+        font-size: 160px;
+    }
+
+    .conjuntoSection > h1 {
+        font-size: 90px;
+    }
+
+    .conjuntoSection > img {
+        width: 280px;
+    }
+
+    .conjunto1 {
+        margin-top: -50px;
+    }
+
+    .imgTecido {
+        max-width: 250px;
+    }
+
+    .tecidoSection::after {
+        top: 40%;
+    }
+
+    .camisaTecido {
+        width: 300px;
+    }
+
+    .capSection > p {
+        font-size: 150px;
+    }
+
+    .capSection > img {
+        margin-bottom: -100px;
+    }
+
+    .elText {
+        font-size: 60px;
+    }
+
+    .elSubText {
+        font-size: 16px;
+    }
+}
+
+/* 640px */
+@media (width <= 40rem) {
+    .introSection::after {
+        top: 80%;
+    }
+
+    .introSection {
+        margin-bottom: 50px;
+    }
+
+    .introSection > h1 {
+        font-size: 100px;
+    }
+
+    .introSection > img {
+        width: 500px;
+        margin-top: -70px;
+    }
+
+    header > div > p {
+        font-size: 16px;
+    }
+
+    header > div > img {
+        width: 90px;
+    }
+
+    header > div {
+        gap: 8px;
+    }
+
+    .cwS {
+        margin-top: -70px;
+    }
+
+    .camisaSection {
+        margin-bottom: 50px;
+    }
+
+    .camisaSection > div > img {
+        width: 300px;
+    }
+
+    .camisaSection > div > h1 {
+        font-size: 140px;
+    }
+
+    .conjuntoSection {
+        margin-bottom: 100px;
+    }
+
+    .conjuntoSection > h1 {
+        font-size: 70px;
+    }
+
+    .conjuntoSection > img {
+        width: 250px;
+    }
+
+    .conjunto1 {
+        margin-top: -40px;
+    }
+
+    .conjuntoSection::after {
+        width: 110%;
+        height: 110%;
+        top: 40%;
+    }
+
+    .imgTecido {
+        max-width: 220px;
+    }
+
+    .tecidoSection::after {
+        top: 40%;
+    }
+
+    .camisaTecido {
+        width: 250px;
+    }
+
+    .tecidoSection  {
+        margin-bottom: 50px;
+    }
+
+    .tecidoSection > div > div > div img {
+        width: 20px;
+    }
+
+    .tecidoSection > div > div > div p {
+        font-size: 14px;
+    }
+
+    .capSection {
+        margin-bottom: 50px;
+    }
+
+    .capSection > img {
+        width: 450px;
+    }
+
+    .capSection > p {
+        font-size: 150px;
+    }
+
+    .capSection > img {
+        margin-bottom: -100px;
+    }
+
+    .elText {
+        font-size: 40px;
+    }
+
+    .elSubText {
+        font-size: 12px;
+    }
+
+    .edicaoSection > img {
+        width: 100px;
+    }
+}

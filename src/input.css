@@ -113,32 +113,3 @@ body {
 .capSection {
     position: relative;
 }
-
-#bm1 {
-    position: absolute;
-    top: -10%;
-    left: 70%;
-    opacity: 50%;
-}
-
-#bm2 {
-    position: absolute;
-    top: 50%;
-    left: 50px;
-    opacity: 50%;
-}
-
-#bm3 {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    rotate: 180deg;
-    opacity: 50%;
-}
-
-#bm4 {
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    opacity: 50%;
-}
